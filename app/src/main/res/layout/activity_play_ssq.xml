@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lottery.activity.PlaySSQActivity">
+
+    <include
+        android:id="@+id/toolbar_new"
+        layout="@layout/include_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- 双色球选号 -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ii_bottom_game"
+        android:layout_below="@+id/toolbar_new"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/type"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!-- 红球的选号 -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/red_temp"
+                    style="@style/title_xml_ssq"
+                    android:text="红球区"
+                    android:textColor="@color/red2" />
+
+                <TextView
+                    android:id="@+id/temp_dan"
+                    style="@style/txt_xml_ssq"
+                    android:text="胆码:请选择1-5个号码" />
+
+                <Button
+                    android:id="@+id/ii_ssq_random_red"
+                    style="@style/random_ssq" />
+            </RelativeLayout>
+            <!-- 红球选号的容器 -->
+            <!-- 高度固定：留出一个空行——小屏幕手机 -->
+
+            <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                android:id="@+id/ii_ssq_red_number_container"
+                style="@style/mygridview_ssq"
+                android:layout_height="200dp"
+                android:stretchMode="columnWidth" />
+
+            <RelativeLayout
+                android:id="@+id/re_tuo_ma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/re_tuo_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        style="@style/title_xml_ssq"
+                        android:text="拖码区"
+                        android:textColor="@color/red2" />
+
+                    <TextView
+                        android:id="@+id/temp_dan_"
+                        style="@style/txt_xml_ssq"
+                        android:text="@string/is_ssqdt_default_prompt_" />
+
+                </RelativeLayout>
+
+                <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                    android:id="@+id/ii_ssq_red_number_container_tuo"
+                    style="@style/mygridview_ssq"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/re_tuo_top" />
+            </RelativeLayout>
+
+            <!-- 蓝球的选号 -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    style="@style/title_xml_ssq"
+                    android:text="蓝球区"
+                    android:textColor="@color/blue" />
+
+            </RelativeLayout>
+            <!-- 蓝球选号 -->
+            <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                android:id="@+id/ii_ssq_blue_number_container"
+                style="@style/mygridview_ssq"
+                android:layout_height="120dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/bottom_game" />
+</RelativeLayout>

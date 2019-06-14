@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="800px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="下载二维码"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/common_dimen_16dp"
+        android:src="@mipmap/tui_guang" />
+
+    <Button
+        android:id="@+id/guanbi"
+        android:layout_width="350px"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40px"
+        android:layout_marginLeft="@dimen/common_dimen_5dp"
+        android:layout_marginRight="@dimen/common_dimen_5dp"
+        android:background="@drawable/bt_bg_r"
+        android:gravity="center"
+        android:text="关 闭" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

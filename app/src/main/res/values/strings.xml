@@ -1,0 +1,288 @@
+<resources>
+    <string name="app_name">智能终端</string>
+    <string name="exit_msg">再按一次推出程序</string>
+
+    <!--返回的提示信息-->
+    <string name="prompt_msg">是否清除所选号码？</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!--Tab-->
+    <string name="tab_manager1">选购大厅</string>
+    <string name="tab_manager2">我的</string>
+    <string name="tab_manager3">扫码兑奖</string>
+
+    <!--扫码兑奖-->
+    <string name="text_zxing_left">手电筒</string>
+    <string name="text_zxing_right">相册</string>
+
+    <!--我的 itme-->
+    <string name="item_manager1">我的钱包</string>
+    <string name="item_manager2">实名认证</string>
+    <string name="item_manager3">订单详情</string>
+    <string name="item_manager4">业主认证</string>
+    <string name="item_manager5">选号单</string>
+    <string name="item_manager6">设&#160;&#160;&#160;置</string>
+
+    <!--设置-->
+    <string name="setting_title">设&#160;置</string>
+    <string name="setting_normal">通用设置</string>
+    <string name="setting_cache">自动缓存</string>
+    <string name="setting_image">无图模式</string>
+    <string name="setting_updata">检查新版本</string>
+    <string name="setting_other">其它设置</string>
+    <string name="setting_regarding">@string/about_title</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="setting_clear_dialog">您是否要删除缓存?</string>
+    <string name="setting_out_dialog">您是否要退出登录并关闭应用?</string>
+    <string name="send_email">选择邮件客户端:</string>
+
+    <!--意见反馈对应邮箱-->
+    <string name="setting_email">beijiangchuanmei01@163.com</string>
+
+    <!--关于-->
+    <string name="about_title">关于我们</string>
+    <string name="about_consumer_hotline">0471&#8211;5688693</string>
+    <string name="about_content"><![CDATA[
+        <h2><font color="#212121">应用内容</h2>
+        <p>\t\t本应用致力于提升购彩乐趣，方便用户购彩，减轻业主销售压力以及负担。便捷中心管理，提升销量。</p>
+        <p>\t\t当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能…</p>
+        <p>\t\t如果您有任何好的建议：</p>
+            <br/>\t\t\t\t问题的反馈
+            <br/>\t\t\t\t关于应用的使用意见
+            <br/>\t\t\t\t未来你希望增加的功能等
+        <p>\t\t可以反馈给我们，我们将及时跟进。</p>
+        <p>\t\t\t\t<font color="#42A5F5">关注"北疆传媒"公众号</p>
+        <p>\t\t\t\t<font color="#212121">技术支持:北京世纪中彩视频传媒技术股份有限公司</font></p>
+        <p>\t\t\t\t<font color="#B71C1C">内蒙古福彩中心&#160;&#160;版权所有</p>
+    ]]></string>
+
+
+    <!--应用协议-->
+    <string name="login_disclaimer">
+        <![CDATA[
+        <h2><font color="#212121">智能终端服务协议内容如下:</h2>
+        <p>\t\t 1.用户凡下载安装、登陆或直接、间接使用智能终端APP软件，则表示已自愿接受本协议所有条款和APP相关声明，并受以下服务协议的约束。</p>
+        <p>\t\t 2.本软件经过详细的测试，但不能保证与所有的软硬件系统完全兼容。如果出现不兼容的情况，用户可将情况报告内蒙古自治区福利彩票发行管理中心，获得技术支持。如果无法解决兼容性问题，用户可以删除本软件。安装本软件可能与用户安装使用的其他软件产生冲突、由于不能使用本产品而造成的直接或间接的个人损害以及任何其它金钱损失，内蒙古自治区福利彩票发行管理中心对此不承担责任。</p>
+        <p>\t\t 3.根据<font color="#B71C1C">《彩票管理条例实施细则》</font>，未成年人禁止使用本软件。</p>
+        <p>\t\t 4.用户需按要求填写本人身份证、电话号码、手机号等相关个人信息。如因错填、漏填等原因导致不能提现或者其他损失，由用户承担全部责任。</p>
+        <p>\t\t 5.APP用户所登记的相关信息仅用于智能终端APP软件内使用。如因使用者本人将APP手机验证码告知他人或与他人共享注册账户，由此导致的任何个人信息的泄露或奖金被盗等，内蒙古自治区福利彩票发行管理中心均不承担任何责任。</p>
+        <p>\t\t 6.用户因第三方如电信部门的通讯线路故障、技术故障、网络问题、手机故障、手机病毒、系统不稳定性及其他各种不可抗力原因而遭受的一切损失，内蒙古自治区福利彩票发行管理中心均不承担责任。</p>
+        <p>\t\t 7.根据市场发展需要，内蒙古自治区福利彩票发行管理中心有权对全部服务内容进行变更、暂停、限制、终止或撤销服务，变更相关内容时会提前告知用户。内蒙古自治区福利彩票发行管理中心在履行上述权利时可能造成的不可测损失，需由用户自行承担。</p>
+        <p>\t\t 8.本协议版权及其修改权、更新权和最终解释权均属内蒙古自治区福利彩票发行管理中心所有。如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决。</p>
+        <p>\t\t 9.本协议由内蒙古自治区福利彩票发行管理中心根据实际情况进行更新，自通知之日起，用户继续使用的，即视为接受新的协议。</p>
+        
+    ]]>
+    </string>
+
+    <!--兑奖中文本-->
+    <string name="bonus_qrtxt">将彩票上的条形码放入扫码框中</string>
+
+    <!--二维码弹窗title-->
+    <string name="owner_qrtxt">绑定二维码</string>
+    <string name="detail_qrtxt">订单二维码</string>
+
+    <!--订单列表-->
+    <string name="recycler_expand">RecyclerView收缩分组悬浮</string>
+    <string name="waiting_reception">未出票</string>
+    <string name="distributed">已出票</string>
+    <string name="progressing">待出票</string>
+
+    <string name="allPrint_0">未全出票</string>
+    <string name="allPrint_1">已全出票</string>
+
+    <string name="auditing">审核中</string>
+    <string name="finished">已完成</string>
+    <string name="not_started">未开始</string>
+
+    <!--基本文本-->
+    <string name="login">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="submit">提&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;交</string>
+    <string name="is_exit">退&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;出</string>
+    <string name="is_positive">确定</string>
+    <string name="is_negative">取消</string>
+    <string name="is_loading">加载中……</string>
+    <string name="not_data">当前没有数据</string>
+    <string name="is_lottery_money_limit">单注投注额不得大于20000元</string>
+    <string name="is_lottery_money_list">超出限额20000元</string>
+    <string name="action_settings">单注投注额不得大于20000元</string>
+    <string name="add_ok_msg">请至少选择1注加入购物车</string>
+
+    <!-- 购彩大厅 -->
+    <string name="is_ssq_default_notice">@string/is_default_notice</string>
+    <string name="is_default_notice">0注 0元</string>
+    <string name="smg_show_toast">奖期期结中,稍后请手动下拉刷新页面</string>
+
+    <string name="is_hall_common_summary">第ISSUE期 还有TIME停售</string>
+    <string name="is_hall_summary_default">彩种</string>
+    <string name="is_hall_ssq_pool">奖池M%元</string>
+
+    <string name="is_hall_ssq_title">双色球</string>
+    <string name="is_hall_3d_title">3D</string>
+    <string name="is_hall_qlc_title">七乐彩</string>
+    <string name="is_hall_ssc_title">时时彩</string>
+    <string name="is_hall_k3_title">快3</string>
+
+    <!--倍数限制文本-->
+    <string name="is_beishu_99">(1&#8211;99倍)</string>
+    <string name="is_beishu_50">(1&#8211;50倍)</string>
+
+    <!-- 双色球 -->
+    <string name="is_ssq_title_default">双色球选号</string>
+    <string name="is_ssq_title">双色球第ISSUE期</string>
+    <string name="is_ssq">双色球</string>
+    <string name="is_random_red">机选选号</string>
+    <string name="is_random_blue">机选蓝球</string>
+    <string name="is_ssq_default_prompt">请选择6个红球, 1个蓝球</string>
+    <string name="is_ssqfs_default_prompt">请至少选择2注号码</string>
+    <string name="is_ssqdt_default_prompt">请选择1&#8211;5个号码</string>
+    <string name="is_ssqdt_default_prompt_">请选择2&#8211;20个号码</string>
+
+    <!-- 3D-->
+    <string name="is_sdz_default_prompt">每位选择1个号码</string>
+    <string name="is_sdzw_default_prompt">请至少选择2注号码</string>
+    <string name="is_sdzs_default_prompt">请选择1个对数和1个独数</string>
+    <string name="is_sdzsfs_default_prompt">请选择至少2个号码</string>
+    <string name="is_sdzxfs_default_prompt">请至少选择3个号码</string>
+    <string name="is_sdzlf_default_prompt">请选择4&#8211;9个号码</string>
+    <string name="is_sdzl_default_prompt">请选择3个号码</string>
+    <string name="is_sdhz_default_prompt">请选择1个号码进行包点投注</string>
+
+    <!--快3-->
+    <string name="is_k3_shopping_title">快三投注</string>
+    <string name="is_k3sbt_default_prompt">每注最多3个号码</string>
+    <string name="is_k3_default_prompt">与开奖号码一致即中奖</string>
+    <string name="is_k3rbt_default_prompt">与开奖号码的任意2位一致即中奖</string>
+    <string name="is_k3rth_default_prompt">请选择1个同号和1个不同号</string>
+    <string name="is_k3rthfx_default_prompt">开奖号码任意2位与投注的二同号一致即中奖</string>
+    <string name="is_k3slhtx_default_prompt">开奖号为三连号中任意一个即中奖</string>
+    <string name="is_k3sbtdx_default_prompt">三个号码都不相同,且与开奖号码一致即中奖</string>
+    <string name="is_k3sthdx_default_prompt">开奖号码与您投注的三同号一致即中奖</string>
+    <string name="is_k3sthtx_default_prompt">开奖号码的三个号码都相同即中奖</string>
+    <string name="is_k3hz_default_prompt">与开奖号码的和值相同即中奖</string>
+
+    <!-- 时时彩-->
+    <string name="is_ssc_dxjo_default_prompt">请按 个位&#8211;万位 的顺序选择号码</string>
+    <string name="is_ssc_wx_default_prompt">请选择至少2注号码</string>
+    <string name="is_ssc_wxtx_default_prompt">每位选择1个号码</string>
+    <string name="is_ssc_fx_default_prompt">注*复选投注没有一星复选</string>
+
+    <!--七乐彩-->
+    <string name="is_7lc_dx_default_prompt">请选择7个号码"</string>
+    <string name="is_7lc_dt_default_prompt">请选择1&#8211;6个号码</string>
+    <string name="is_7lc_dtt_default_prompt">请选择2&#8211;20个号码</string>
+    <string name="is_7lc_fs_default_prompt">请至少选择8个号码</string>
+
+    <!-- 选号 -->
+    <string name="is_need_to_chose">您还需要选择NUM个</string>
+    <string name="is_ball_red">红球</string>
+    <string name="is_ball_blue">蓝球</string>
+    <string name="is_play_bottom_title">   共 NUM  注   MONEY  元   </string>
+    <string name="is_shopping_list_title" formatted="false">N% I%期</string>
+    <string name="is_shopping_list_notice" formatted="false"><![CDATA[注数：&#160;&#160;<font color="#ff0000">NUM</font>&#160;&#160;注&#160;&#160;金额：&#160;&#160;<font color="#ff0000">MONEY</font>元;余额：&#160;&#160;<font color="#ff0000">MONEY2</font>元]]></string>
+    <string name="is_shopping_list_betting_num" formatted="false"><![CDATA[注数：&#160;&#160;<font color="#ff0000">NUM</font>&#160;&#160;注]]></string>
+    <string name="is_shopping_list_betting_money" formatted="false"><![CDATA[金额：&#160;&#160;<font color="#ff0000">MONEY1</font>&#160;&#160;元&#160;&#160;余额：&#160;&#160;<font color="#ff0000">MONEY2</font>元]]></string>
+    <string name="is_qrcode_dialog_msg" formatted="false"><![CDATA[注数：<font color="#ff0000">MONEY1注</font>&#160;&#160;金额：<font color="#ff0000">MONEY2元</font>]]></string>
+
+    <!-- 登录 -->
+    <string name="is_login">登 录</string>
+    <string name="is_login_notice1">温馨提示：用户可以直接登录</string>
+    <string name="is_login_notice11">温馨提示：用户可以直接</string>
+    <string name="is_login_notice2"><u>登录</u></string>
+    <string name="is_forget_password_notice">您遗忘登录密码时可找回，或致电中彩视频服热线索回密码！</string>
+
+    <string name="is_username">用户名:</string>
+    <string name="is_regist_password">密     码:</string>
+    <string name="is_auto_login">自动登录</string>
+
+    <string name="nanchen">福彩公益行</string>
+
+    <!--充值-->
+    <string name="recharge_title">钱包充值</string>
+    <string name="recharge_title_yuan">选择充值金额(元)</string>
+    <string name="recharge_title_method">选择支付方式</string>
+    <string name="recharge_wechat">微信支付</string>
+    <string name="recharge_zhifubao">支付宝</string>
+    <string name="recharge_shuoming">点击"确认充值"即认为同意中彩视频充值协议</string>
+
+    <!--实名认证-->
+    <string name="certification_title">@string/item_manager2</string>
+
+    <!--我的钱包-->
+    <string name="wallet_title">@string/item_manager1</string>
+    <string name="wallet_edit_account">账单</string>
+    <string name="wallet_balance_title">账户余额(元)</string>
+    <string name="wallet_balance">00.0</string>
+
+    <!--业主佣金-->
+    <string name="Commission_title">佣金提现</string>
+    <string name="Commission_balance_title">总收益金额(元)</string>
+    <string name="Commission_Interest_rate_title">(佣金比例0%)</string>
+
+    <!--业主认证-->
+    <string name="owner_title">@string/item_manager4</string>
+
+    <!--订单详情-->
+    <string name="detail_title">@string/item_manager3</string>
+
+    <!--首页滚动 消息提示-->
+    <string-array name="msgList">
+        <item> 智能终端乐趣多 方便、高效、快捷</item>
+        <item> 福彩圆梦,想幸福出发</item>
+        <item> 福彩文化助残，公益放飞梦想</item>
+        <item> 奋进新时代，改革再出发</item>
+    </string-array>
+
+    <!--双色球 and 七乐彩, pop 选择select-->
+    <string-array name="ssqmsgList">
+        <item>单式投注</item>
+        <item>复式投注</item>
+        <item>胆拖投注</item>
+    </string-array>
+
+    <!--3D, pop 选择select-->
+    <string-array name="sdmsgList">
+        <item>单选</item>
+        <item>组三</item>
+        <item>组六</item>
+        <item>单选全包点</item>
+        <item>组三包点</item>
+        <item>组六包点</item>
+        <item>单选单复式</item>
+        <item>组三复选</item>
+        <item>组六复选</item>
+        <item>单选位选</item>
+    </string-array>
+
+    <!--时时彩, pop 选择select-->
+    <string-array name="sscmsgList">
+        <item>单式投注</item>
+        <item>复选投注</item>
+        <item>位选投注</item>
+        <item>大小单双</item>
+        <item>五星通选</item>
+    </string-array>
+
+    <string-array name="sscmsgNumberList">
+        <item>大</item>
+        <item>小</item>
+        <item>单</item>
+        <item>双</item>
+    </string-array>
+
+    <!--快三 , pop 选择select-->
+    <string-array name="k3msgList">
+        <item>单式(集合)</item>
+        <item>二同号单选</item>
+        <item>三同号单选</item>
+        <item>三不同单选</item>
+        <item>三同号通选</item>
+        <item>三连号通选</item>
+        <item>二同号复选</item>
+        <item>二不同</item>
+        <item>和值</item>
+    </string-array>
+    <string name="title_activity_disclaimer">应用服务协议</string>
+
+</resources>

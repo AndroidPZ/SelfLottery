@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/id_item_bg"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/zhi_textView"
+        style="@style/pop_text"
+        android:text="直选" />
+
+    <Button
+        android:id="@+id/zs_textView"
+        style="@style/pop_text"
+        android:text="组三" />
+
+    <Button
+        android:id="@+id/zl_textView"
+        style="@style/pop_text"
+        android:text="组六" />
+
+</LinearLayout>

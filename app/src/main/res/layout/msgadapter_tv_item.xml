@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/temxta_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:text="@string/is_ssq_default_notice"
+        android:textColor="@color/colormsgtext"
+        android:textSize="17sp" />
+
+</android.support.constraint.ConstraintLayout>

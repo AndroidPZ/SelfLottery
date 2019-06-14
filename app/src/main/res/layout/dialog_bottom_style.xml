@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keybord_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimen_160dp"
+        android:background="@color/white">
+
+        <!--success_frame-->
+        <FrameLayout
+            android:id="@+id/success_frame"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/success_bow" />
+
+            <View
+                android:id="@+id/mask_right"
+                android:layout_width="35dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-13dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:id="@+id/mask_left"
+                android:layout_width="21dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="-3dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/success_circle" />
+
+            <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.SuccessTickView
+                android:id="@+id/success_tick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <!--error_x-->
+        <FrameLayout
+            android:id="@+id/error_frame"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/error_circle" />
+
+            <ImageView
+                android:id="@+id/error_x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@drawable/error_center_x" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/warning_frame"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_alignTop="@+id/success_frame"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/warning_circle"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/warning_t"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@drawable/warning_sigh"
+                android:visibility="gone" />
+
+            <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.WarningTickView
+                android:id="@+id/warning_tick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/msg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/success_frame"
+            android:layout_centerHorizontal="true"
+            android:text="信息"
+            android:layout_marginTop="@dimen/common_dimen_10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16sp" />
+
+
+        <Button
+            android:id="@+id/bt_wxpay"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/common_dimen_28dp"
+            android:layout_below="@+id/msg_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/common_dimen_15dp"
+            android:background="@drawable/btn_selector"
+            android:text="确定" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

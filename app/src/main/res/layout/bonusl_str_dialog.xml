@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/bonus_dialog"
+        android:layout_width="match_parent"
+        android:background="@drawable/dialog_bonus_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="240px"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="提    示"
+            android:layout_marginBottom="@dimen/common_dimen_10dp"
+            android:textColor="@color/red_700"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/grey_800"
+            android:textSize="18sp"
+             />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bonus_dialog"
+        android:background="@drawable/dialog_bonus_bg_bottom"
+        android:gravity="center"
+        android:padding="@dimen/common_dimen_8dp"
+        android:text="确 定"
+        android:textColor="@color/blue_700"
+        android:textSize="20sp" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

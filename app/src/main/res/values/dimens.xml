@@ -1,0 +1,150 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dialog_loginerror_height">1000px</dimen><!--商城的弹窗 的宽高-->
+    <dimen name="dialog_loginerror_width">800px</dimen>
+
+    <dimen name="dialog_fanhui_height">460px</dimen><!--返回提醒的弹窗 的宽高-->
+    <dimen name="dialog_fanhui_width">800px</dimen>
+
+    <dimen name="dialog_detail_height">1000px</dimen><!--订单详情item中的弹窗 的宽高-->
+    <dimen name="dialog_detail_width">800px</dimen>
+
+    <dimen name="dialog_bonus_height">400px</dimen><!--兑奖页面非中奖弹窗 的宽高-->
+    <dimen name="dialog_bonus_width">800px</dimen>
+
+    <dimen name="dialog_bonus_bomb_height">1200px</dimen><!--兑奖页面大奖奖弹窗 的宽高-->
+    <dimen name="dialog_bonus_bomb_width">800px</dimen>
+
+    <dimen name="dialog_bonus_small_height">1000px</dimen><!--兑奖页面奖弹窗 的宽高-->
+    <dimen name="dialog_bonus_small_width">1000px</dimen>
+
+    <dimen name="dialog_loging_height">500px</dimen><!--网络loging的弹窗 的宽高-->
+    <dimen name="dialog_loging_width">500px</dimen>
+
+    <!--微信提现弹窗大小-->
+    <dimen name="dialog_wexin_add_height">500px</dimen><!--兑奖页面大奖奖弹窗 的宽高-->
+    <dimen name="dialog_wexin_add_width">1000px</dimen>
+
+    <!-- 我的选项 的宽高参数-->
+    <dimen name="wode_mylist_height">125px</dimen>
+    <dimen name="wode_mylist_width">135px</dimen>
+    <dimen name="wode_mylist_height_img">80px</dimen> <!--每行的图标的宽高-->
+    <dimen name="wode_mylist_width_img">78px</dimen>
+    <dimen name="wode_text_size">14sp</dimen><!--每行的文字的大小-->
+
+
+    <dimen name="textSize_16">16sp</dimen>
+
+    <dimen name="text_size_8sp">8sp</dimen>
+    <dimen name="text_size_9sp">9sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_21sp">21sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_23sp">23sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_25sp">25sp</dimen>
+    <dimen name="text_size_26sp">26sp</dimen>
+    <dimen name="text_size_27sp">27sp</dimen>
+    <dimen name="text_size_28sp">28sp</dimen>
+    <dimen name="text_size_29sp">29sp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+
+    <dimen name="common_dimen_0dp">0dp</dimen>
+    <dimen name="common_dimen_05dp">0.5dp</dimen>
+    <dimen name="common_dimen_2dp">2dp</dimen>
+    <dimen name="common_dimen_3dp">3dp</dimen>
+    <dimen name="common_dimen_4dp">4dp</dimen>
+    <dimen name="common_dimen_5dp">5dp</dimen>
+    <dimen name="common_dimen_6dp">6dp</dimen>
+    <dimen name="common_dimen_7dp">7dp</dimen>
+    <dimen name="common_dimen_8dp">8dp</dimen>
+    <dimen name="common_dimen_9dp">9dp</dimen>
+    <dimen name="common_dimen_10dp">10dp</dimen>
+    <dimen name="common_dimen_11dp">11dp</dimen>
+    <dimen name="common_dimen_12dp">12dp</dimen>
+    <dimen name="common_dimen_13dp">13dp</dimen>
+    <dimen name="common_dimen_14dp">14dp</dimen>
+    <dimen name="common_dimen_15dp">15dp</dimen>
+    <dimen name="common_dimen_16dp">16dp</dimen>
+    <dimen name="common_dimen_17dp">17dp</dimen>
+    <dimen name="common_dimen_18dp">18dp</dimen>
+    <dimen name="common_dimen_19dp">19dp</dimen>
+    <dimen name="common_dimen_20dp">20dp</dimen>
+    <dimen name="common_dimen_21dp">21dp</dimen>
+    <dimen name="common_dimen_22dp">22dp</dimen>
+    <dimen name="common_dimen_23dp">23dp</dimen>
+    <dimen name="common_dimen_24dp">24dp</dimen>
+    <dimen name="common_dimen_25dp">25dp</dimen>
+    <dimen name="common_dimen_26dp">26dp</dimen>
+    <dimen name="common_dimen_27dp">27dp</dimen>
+    <dimen name="common_dimen_28dp">28dp</dimen>
+    <dimen name="common_dimen_29dp">29dp</dimen>
+    <dimen name="common_dimen_30dp">30dp</dimen>
+    <dimen name="common_dimen_31dp">31dp</dimen>
+    <dimen name="common_dimen_32dp">32dp</dimen>
+    <dimen name="common_dimen_33dp">33dp</dimen>
+    <dimen name="common_dimen_34dp">34dp</dimen>
+    <dimen name="common_dimen_35dp">35dp</dimen>
+    <dimen name="common_dimen_40dp">40dp</dimen>
+    <dimen name="common_dimen_45dp">45dp</dimen>
+    <dimen name="common_dimen_50dp">50dp</dimen>
+    <dimen name="common_dimen_51dp">51dp</dimen>
+    <dimen name="common_dimen_52dp">52dp</dimen>
+    <dimen name="common_dimen_53dp">53dp</dimen>
+    <dimen name="common_dimen_54dp">54dp</dimen>
+    <dimen name="common_dimen_55dp">55dp</dimen>
+    <dimen name="common_dimen_60dp">60dp</dimen>
+    <dimen name="common_dimen_65dp">65dp</dimen>
+    <dimen name="common_dimen_70dp">70dp</dimen>
+    <dimen name="common_dimen_80dp">80dp</dimen>
+    <dimen name="common_dimen_90dp">90dp</dimen>
+    <dimen name="common_dimen_100dp">100dp</dimen>
+    <dimen name="common_dimen_110dp">110dp</dimen>
+    <dimen name="common_dimen_120dp">120dp</dimen>
+    <dimen name="common_dimen_130dp">130dp</dimen>
+    <dimen name="common_dimen_140dp">140dp</dimen>
+    <dimen name="common_dimen_145dp">145dp</dimen>
+    <dimen name="common_dimen_150dp">150dp</dimen>
+    <dimen name="common_dimen_160dp">160dp</dimen>
+    <dimen name="common_dimen_170dp">170dp</dimen>
+    <dimen name="common_dimen_180dp">180dp</dimen>
+    <dimen name="common_dimen_190dp">190dp</dimen>
+    <dimen name="common_dimen_200dp">200dp</dimen>
+    <dimen name="common_dimen_210dp">210dp</dimen>
+    <dimen name="common_dimen_220dp">220dp</dimen>
+    <dimen name="common_dimen_230dp">230dp</dimen>
+    <dimen name="common_dimen_240dp">240dp</dimen>
+    <dimen name="common_dimen_250dp">250dp</dimen>
+    <dimen name="common_dimen_260dp">260dp</dimen>
+    <dimen name="common_dimen_270dp">270dp</dimen>
+    <dimen name="common_dimen_280dp">280dp</dimen>
+    <dimen name="common_dimen_290dp">290dp</dimen>
+    <dimen name="common_dimen_300dp">300dp</dimen>
+    <dimen name="common_dimen_310dp">310dp</dimen>
+    <dimen name="common_dimen_320dp">320dp</dimen>
+    <dimen name="common_dimen_330dp">330dp</dimen>
+    <dimen name="common_dimen_340dp">340dp</dimen>
+    <dimen name="common_dimen_350dp">350dp</dimen>
+    <dimen name="common_dimen_360dp">360dp</dimen>
+    <dimen name="common_dimen_370dp">370dp</dimen>
+    <dimen name="common_dimen_380dp">380dp</dimen>
+    <dimen name="common_dimen_390dp">390dp</dimen>
+    <dimen name="common_dimen_400dp">400dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+</resources>

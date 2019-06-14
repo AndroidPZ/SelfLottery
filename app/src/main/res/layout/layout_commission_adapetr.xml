@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_type"
+            android:layout_width="@dimen/common_dimen_70dp"
+            android:layout_height="@dimen/common_dimen_70dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_shenfen"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <TextView
+            android:id="@+id/tweetName"
+            style="@style/tweetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/count"
+            android:layout_alignStart="@+id/tweetText"
+            android:paddingLeft="@dimen/dp_10"
+            android:text="销售数量: " />
+
+        <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.CountNumberView
+            android:id="@+id/count"
+            style="@style/tweetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_dimen_5dp"
+            android:layout_toRightOf="@+id/tweetName"
+            android:paddingLeft="@dimen/dp_10"
+            android:text="0"
+            android:textColor="@color/red_700" />
+
+
+        <TextView
+            android:id="@+id/tweetText"
+            style="@style/tweetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sum"
+            android:layout_below="@+id/tweetName"
+            android:layout_marginTop="@dimen/common_dimen_8dp"
+            android:layout_toRightOf="@+id/icon_type"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/common_dimen_5dp"
+            android:text="销售金额(元):" />
+
+        <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.CountNumberView
+            android:id="@+id/sum"
+            style="@style/tweetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon_type"
+            android:layout_toEndOf="@+id/tweetText"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingLeft="@dimen/common_dimen_5dp"
+            android:paddingRight="@dimen/dp_10"
+            android:text="0.00"
+            android:textColor="@color/red_700" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

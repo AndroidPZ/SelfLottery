@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="@color/grey_100">
+
+        <TextView
+            android:id="@+id/lottery_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="18px"
+            android:text="彩种"
+            android:textColor="@color/red_700"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/detail_qrcode"
+            android:layout_width="83px"
+            android:layout_height="80px"
+            android:layout_marginLeft="290px"
+            android:scaleType="fitXY"
+            android:layout_marginTop="18px"
+            android:background="@mipmap/detail_qrcode" />
+
+        <TextView
+            android:id="@+id/title_zhushu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="125px"
+            android:text="0注" />
+
+        <TextView
+            android:id="@+id/title_beishu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25px"
+            android:layout_marginTop="125px"
+            android:layout_toRightOf="@+id/title_zhushu"
+            android:text="0倍数" />
+
+        <TextView
+            android:id="@+id/title_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30px"
+            android:layout_marginTop="125px"
+            android:layout_toEndOf="@+id/title_beishu"
+            android:text="0元" />
+
+        <TextView
+            android:id="@+id/tv_all_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/title_money"
+            android:layout_alignBottom="@+id/title_money"
+            android:layout_centerHorizontal="true"
+            android:text="订单状态" />
+
+        <TextView
+            android:id="@+id/title_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125px"
+            android:layout_marginEnd="90px"
+            android:text="2018-00-00 00:00:00" />
+
+        <TextView
+            android:id="@+id/title_order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18px"
+            android:layout_marginEnd="90px"
+            android:text="订单号:--------------" />
+
+        <ImageView
+            android:id="@+id/image_expand_flag"
+            android:layout_width="60px"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="#043b68"
+            android:contentDescription="@null"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_down_indicate" />
+
+        <ImageView
+            android:id="@+id/image_select_flag"
+            android:layout_width="110px"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@null"
+            android:paddingLeft="8dp"
+            android:paddingRight="5dp"
+            android:src="@mipmap/multiple_selection"
+            android:visibility="gone" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:id="@+id/view_space"
+        android:layout_width="1dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="25dp"
+        android:background="#33000000" />
+
+</com.zhy.autolayout.AutoLinearLayout>

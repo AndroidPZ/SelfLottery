@@ -1,0 +1,168 @@
+ext {
+
+    android = [
+            compileSdkVersion    : 28,
+            supportLibraryVersion: "27.1.0",
+            buildToolsVersion    : "28.0.3",
+            applicationId        : "zhcw.lottery.znzd.com.selflottery",
+            minSdkVersion        : 19,
+            targetSdkVersion     : 26,
+            versionCode          : 2,
+            versionName          : "1.0.1"
+    ]
+
+    dependVersion = [
+            support            : "27.1.0",
+            dbflow             : "4.2.4",
+            smartrefreshVersion: "1.1.0-alpha-18",
+            glideVersion       : "4.8.0",
+            retrofitVersion    : "2.1.0",
+            daggerVersion      : "2.7",
+            butterknifeVersion : "8.5.1",
+    ]
+    dependencies = [
+            /*
+            * 作者:xpz
+            * 下面的依赖有的可能没有使用,但不影响使用也不会造成额外的依赖,只有在App中的依赖才会被使用.
+            * 可依然为这里是一个自己的依赖备份(仓库)
+            * */
+
+            /*android-support*/
+            "support-v4"               : "com.android.support:support-v4:${dependVersion.support}",
+            "appcompat-v7"             : "com.android.support:appcompat-v7:${dependVersion.support}",
+            "design"                   : "com.android.support:design:${dependVersion.support}",
+            "recyclerview"             : "com.android.support:recyclerview-v7:${dependVersion.support}",
+            "cardview"                 : "com.android.support:cardview-v7:${dependVersion.support}",
+            "palette"                  : "com.android.support:palette-v7:${dependVersion.support}",
+            "support-vector-drawable"  : "com.android.support:support-vector-drawable:${dependVersion.support}",
+            "annotations"              : "com.android.support:support-annotations:${dependVersion.support}",
+            "fragment"                 : "com.android.support:support-fragment:${dependVersion.support}",
+            "preference"               : "com.android.support:preference-v14:25.3.1",
+            "multidex"                 : "com.android.support:multidex:1.0.3",
+            "runner"                   : "com.android.support.test:runner:1.0.2",
+            "espresso-core"            : "com.android.support.test.espresso:espresso-core:3.0.2",
+            "constraint-layout"        : "com.android.support.constraint:constraint-layout:1.1.3",
+
+            /*http*/
+            "retrofit2"                : "com.squareup.retrofit2:retrofit:${dependVersion.retrofitVersion}",
+            "converter-scalars"        : "com.squareup.retrofit2:converter-scalars:${dependVersion.retrofitVersion}",
+            "converter-gson"           : "com.squareup.retrofit2:converter-gson:${dependVersion.retrofitVersion}",
+            "adapter-rxjava2"          : "com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+            "gson"                     : "com.google.code.gson:gson:2.8.0",
+            "chuck"                    : "com.readystatesoftware.chuck:library:1.0.4",
+            //OKgo
+            "okgo"                     : "com.lzy.net:okgo:3.0.4",
+            "_okgo"                    : "com.lzy.net:okgo:+",
+            "_okrx"                    : "com.lzy.net:okrx:+",
+
+            /*httpcache*/
+            "rxCache"                  : "com.github.VictorAlbertos.RxCache:runtime:1.8.0-2.x",
+            "Jolyglot-gson"            : "com.github.VictorAlbertos.Jolyglot:gson:0.0.3",
+
+            /*rxjava*/
+            "rxjava"                   : "io.reactivex.rxjava2:rxjava:2.0.6",
+            "rxandroid"                : "io.reactivex.rxjava2:rxandroid:2.0.1",
+            "rxbinding2"               : "com.jakewharton.rxbinding2:rxbinding:2.0.0",
+            "rxlifecycle2"             : "com.trello.rxlifecycle2:rxlifecycle:2.1.0",
+            "rxlifecomponents"         : "com.trello.rxlifecycle2:rxlifecycle-components:2.1.0",
+
+            /*Dagger2*/
+            "dagger"                   : "com.google.dagger:dagger:${dependVersion.daggerVersion}",
+            "dagger-compiler"          : "com.google.dagger:dagger-compiler:${dependVersion.daggerVersion}",
+
+            /*UI*/
+            //最新的butterknife*/
+            "butterknife"              : "com.jakewharton:butterknife:${dependVersion.butterknifeVersion}",
+            "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${dependVersion.butterknifeVersion}",
+            //BaseAdapterHelper*/
+            "BaseAdapterHelper"        : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.41",
+            //图片加载
+//            "glide"                  : "com.github.bumptech.glide:glide:3.7.0",
+            "glide"                    : "com.github.bumptech.glide:glide:${dependVersion.glideVersion}",
+            "glide_compiler"           : "com.github.bumptech.glide:compiler:${dependVersion.glideVersion}",
+            "fresco"                   : "com.facebook.fresco:fresco:0.14.1",
+            //banner
+            "banner"                   : "com.youth.banner:banner:1.4.10",
+            //引导蒙层
+            "NewbieGuide"              : "com.github.huburt-Hu:NewbieGuide:v2.4.0",
+            //各种自定义TabLayout指示器
+            "tablayout"                : "com.flyco.tablayout:FlycoTabLayout_Lib:2.0.2@aar",
+            //圆角
+            "circleimageview"          : "de.hdodenhof:circleimageview:2.2.0",
+            //圆角矩形
+            "RoundImageView"           : "com.lqm:RoundImageView:1.0.0",
+            //功能强大的工具类
+            "utilcode"                 : "com.blankj:utilcode:1.22.10",
+            //一个高度集成的web
+            "agentweb"                 : "com.just.agentweb:agentweb:4.0.2",
+            //流式布局，支持单选、多选等
+            "flowlayout"               : "com.hyman:flowlayout-lib:1.1.2",
+            //分辨率适配布局
+            "autolayout"               : "com.zhy:autolayout:1.4.5",
+            //zxing扫码生成扫码
+            "zxing-embedded"           : "com.journeyapps:zxing-android-embedded:3.3.0",
+            //BGA 扫码
+            "zxing-bga"                : "cn.bingoogolapple:bga-qrcode-zxing:1.3.4",
+            //属性动画
+            "svg"                      : "com.jaredrummler:animated-svg-view:1.0.4",
+            //动画
+            "androidanimations"        : "com.daimajia.androidanimations:library:2.2@aar",
+            "easing"                   : "com.daimajia.easing:library:2.0@aar",
+            "grav"                     : "com.github.glomadrian:grav:1@aar",
+            //加载动画
+            "avi"                      : "com.wang.avi:library:2.1.3",
+            //状态来 , 导航栏
+            "immersionbar"             : "com.gyf.immersionbar:immersionbar:2.3.3-beta15",
+            //回弹效果ScrollView
+            "SpringScrollView"         : "com.southernbox:SpringScrollView:1.0.0",
+            //日期格式类库
+            "easytools"                : "com.easyandroid:easytools:1.1.9",
+            //阿里布局框架
+            "vlayout"                  : "com.alibaba.android:vlayout:1.2.8@aar",
+            //定时控件
+            "countdownview"            : "com.github.iwgang:countdownview:2.1.5",
+            //Android滚轮选择控件，可以自定义样式。
+            "PickerView"               : "com.contrarywind:Android-PickerView:4.1.6",
+            //回弹效果
+            "overscroll-decor"         : "me.everything:overscroll-decor-android:1.0.4",
+            //dialog类库
+            "kongzue.dialog"           : "com.kongzue.dialog:dialog:2.1.7",
+            //多功能自定义TextView
+            "SuperTextView"            : "com.github.lygttpod:SuperTextView:2.1.6",
+            //一个 Android 版京东手机客户端（当前版本V5.0.1 build 28529）风格的级联地址选择器
+            "JDAddressSelector"        : "com.github.chihane:JDAddressSelector:1.1.4",
+            //图片选择器(仿微信)
+            "imagepicker"              : "com.lzy.widget:imagepicker:0.6.1",
+            //自定义组件：购物车商品数量、增加和减少控制按钮。
+            "numberbutton"             : "ren.qinc.numberbutton:numberbutton:0.0.1",
+            "SmartRefreshLayout"       : "com.scwang.smartrefresh:SmartRefreshLayout:${dependVersion.smartrefreshVersion}",
+            "SmartRefreshHeader"       : "com.scwang.smartrefresh:SmartRefreshHeader:${dependVersion.smartrefreshVersion}",
+
+            /*功能性框架*/
+            //权限
+            "easypermissions"          : "pub.devrel:easypermissions:1.3.0",
+            "permission"               : "com.yanzhenjie:permission:1.1.0",
+            //图片压缩
+            "CompressHelper"           : "com.github.nanchen2251:CompressHelper:1.0.2",
+            //微信开发SDK
+            "tencent"                  : "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+",
+            //Eventbus
+            "eventbus"                 : "org.greenrobot:eventbus:3.1.1",
+            //新的适配方案 , 由今日头条改进而来
+            "autosize"                 : "me.jessyan:autosize:0.9.0",
+
+            /*alibaba*/
+            "arouter-api"              : "com.alibaba:arouter-api:1.3.1",
+            "arouter-compiler"         : "com.alibaba:arouter-compiler:1.1.4",
+            "umeng-common"             : "com.umeng.sdk:common:latest.integration",
+            "umeng-analytics"          : "com.umeng.sdk:analytics:latest.integration",
+
+            /*DBFLOW*/
+            //SQLite-db操作
+            "dbflow-processor"         : "com.github.Raizlabs.DBFlow:dbflow-processor:${dependVersion.dbflow}",
+            "dbflow-core"              : "com.github.Raizlabs.DBFlow:dbflow-core:${dependVersion.dbflow}",
+            "dbflow"                   : "com.github.Raizlabs.DBFlow:dbflow:${dependVersion.dbflow}",
+            "dbflow-sqlcipher"         : "com.github.Raizlabs.DBFlow:dbflow-sqlcipher:${dependVersion.dbflow}"
+    ]
+
+}

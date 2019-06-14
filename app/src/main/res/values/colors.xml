@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C41328</color>
+    <color name="fcdjl_title">#450204</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="red2">#ffb20000</color>
+    <color name="red3">#ffff3333</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="back1">#B96600</color>
+    <color name="back2">#ff840101</color>
+    <color name="paleyellow">#ffb8d300</color>
+    <color name="snow">#fffffafa</color>
+    <color name="seashell">#fffff5ee</color>
+    <color name="invest">#ffc9cbcc</color>
+    <color name="investhui">#9Fe1e2e5</color>
+    <color name="gray">#ffe5e5e5</color>
+    <color name="yellow">#ffffff99</color>
+    <color name="gray1">#ff8b8b8b</color>
+    <color name="orange">#fffffec2</color>
+    <color name="orange1">#f2ce47</color>
+    <color name="orange2">#ffdfc274</color>
+    <color name="orange3">#ffdfc276</color>
+    <color name="orange4">#fffc8b01</color>
+    <color name="yellowy">#ffffff00</color>
+    <color name="grayy">#ff6b716b</color>
+    <color name="greensfc">#ff44d500</color>
+    <color name="greend">#ff247f00</color>
+    <color name="logoback">#ff750000</color>
+    <color name="grayt">#fff7f3f7</color>
+    <color name="loginback">#ffd9d9d9</color>
+    <color name="loginback1">#20000000</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="purple">#ff470000</color>
+    <color name="red_slight">#CD2626</color>
+    <color name="black_slight_r">#5d5d5d</color>
+    <color name="black_slight">#212121</color>
+    <color name="green">#30690B</color>
+    <color name="hard_color">#48495f</color>
+
+    <color name="google_red">#EA4335</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+
+    <color name="wx_gray">#44e5e5e5</color>
+    <color name="colorPageBg">#f2f4f5</color>
+    <!--侧边栏分割线-->
+    <color name="colorNavLine">#E0E0E0</color>
+    <!--item的5.0一下版本选择器颜色-->
+    <color name="itemLowBackground">#d9d9d9</color>
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--首页消息文字颜色-->
+    <color name="colormsgtext">#666666</color>
+    <!--我的文字颜色-->
+    <color name="colormytext">#Df666666</color>
+    <!--tab color-->
+    <color name="common_color">#5d89f2</color>
+    <!--GridView 背景选中颜色-->
+    <color name="gridview_bg_color">#fafafa</color>
+    <!--引导蒙层背景颜色-->
+    <color name="guideColor">#9e4891ff</color>
+
+    <color name="title_text_color">@color/colormsgtext</color>
+    <color name="investhuito">#f0f0f0</color>
+
+    <!--正确动画的颜色-->
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="warning_stroke_color">@color/yellow_300</color>
+    <color name="warning_stroke">#E69310</color>
+
+
+    <color name="primary_text">#f7f7f7</color>
+    <color name="secondary_text">#33d8fd</color>
+    <color name="third_text">#cccccc</color>
+    <color name="navigationBarColor">#EBF5FE</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="divider_color2">#0effffff</color>
+    <color name="ripple_color">#62B2B2B2</color>
+    <color name="activity_color">#EEEEEE</color>
+    <color name="disable_color">#afaca6</color>
+
+    <!-- 待受理 -->
+    <color name="order_state_waiting_reception">#ffb600</color>
+    <!-- 已派发 -->
+    <color name="order_state_distributed">#dbdb00</color>
+    <!-- 进行中 -->
+    <color name="order_state_progressing">#33d142</color>
+    <!-- 审核中 -->
+    <color name="order_state_auditing">#32dfef</color>
+    <!-- 已完成 -->
+    <color name="order_state_finished">#32dfef</color>
+    <!-- 未开始 -->
+    <color name="order_state_not_started">#ffb600</color>
+
+
+    <!-- 充值页面背景颜色-->
+    <color name="recharge_bg">#f3f3f3</color>
+    <color name="recharge_title_txt_color">#938673</color>
+
+    <color name="comm_yz_bg">@color/colorAccent</color><!--更换手机号页面手机号文字颜色-->
+    <color name="count_time">#B9B9B9</color>
+
+
+    <color name="nine">#999999</color>
+    <color name="six">#666666</color>
+    <color name="updatPwd_bg">#f1f1f1</color>
+
+    <color name="main_tab_driver">#bfbfbf</color>
+    <color name="main_tab_text_select">@color/colorPrimary</color>
+    <color name="text_light_grey">#c3c3c3</color>
+    <color name="fm_title_blue">@color/colorPrimary</color>
+    <color name="sitetask_task_tv">#999999</color>
+
+    <color name="coloritem_decoration">#eeeeee</color>
+
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="hint_foreground_dark">#808080</color>
+    <color name="dim_foreground_light">#323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#bebebe</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="highlighted_text_dark">#9983CC39</color>
+    <color name="highlighted_text_light">#9983CC39</color>
+    <color name="link_text_dark">#5c5cff</color>
+    <color name="link_text_light">#0000ee</color>
+    <color name="suggestion_highlight_text">#177bbd</color>
+
+    <!-- 水波纹颜色 -->
+    <drawable name="selected_day_background">#ff0092f4</drawable>
+
+    <!-- For settings framework -->
+    <color name="lighter_gray">#bfff</color>
+    <color name="darker_gray">#aaaa</color>
+
+    <!-- For security permissions -->
+    <color name="perms_dangerous_grp_color">#33b5e5</color>
+    <color name="perms_dangerous_perm_color">#33b5e5</color>
+    <color name="shadow">#cc222222</color>
+
+    <!-- For search-related UIs -->
+    <color name="keyguard_text_color_normal">#ffffff</color>
+    <color name="keyguard_text_color_unlock">#a7d84c</color>
+    <color name="search_url_text_normal">#7fa87f</color>
+    <color name="keyguard_text_color_soundoff">#ffffff</color>
+    <color name="keyguard_text_color_soundon">#e69310</color>
+    <color name="keyguard_text_color_decline">#fe0a5a</color>
+
+    <color name="accessibility_focus_highlight">#bf39b500</color>
+    <color name="autofilled_highlight">#4dffeb3b</color>
+    <color name="system_notification_accent_color">#ff607D8B</color>
+    <color name="keyguard_avatar_frame_pressed_color">#ff35b5e5</color>
+
+    <!-- Default user icon colors -->
+    <color name="user_icon_1">#ff00bcd4</color><!-- cyan 500 -->
+    <color name="user_icon_2">#ff3f51b5</color><!-- indigo 500 -->
+    <color name="user_icon_3">#ff4285f4</color><!-- blue 500 -->
+    <color name="user_icon_4">#ffe91e63</color><!-- pink 500 -->
+    <color name="user_icon_5">#ff0f9d58</color><!-- green 500 -->
+    <color name="user_icon_6">#ff8bc34a</color><!-- light green 500 -->
+    <color name="user_icon_7">#ffff9800</color><!-- orange 500 -->
+    <color name="user_icon_8">#ffff5722</color><!-- deep orange 500 -->
+    <color name="user_icon_default_gray">#ff9e9e9e</color><!-- gray 500 -->
+    <color name="user_icon_default_white">#ffffffff</color><!-- white -->
+
+    <!-- Default profile badge colors -->
+    <color name="profile_badge_1">#ffff5722</color><!-- Orange -->
+    <color name="profile_badge_2">#ff000000</color><!-- Black -->
+    <color name="profile_badge_3">#ff22f033</color><!-- Green -->
+
+    <!-- Multi-sim sim colors -->
+    <color name="Teal_700">#ff00796b</color>
+    <color name="Teal_800">#ff00695c</color>
+    <color name="Blue_700">#ff3367d6</color>
+    <color name="Blue_800">#ff2a56c6</color>
+    <color name="Indigo_700">#ff303f9f</color>
+    <color name="Indigo_800">#ff283593</color>
+    <color name="Purple_700">#ff7b1fa2</color>
+    <color name="Purple_800">#ff6a1b9a</color>
+    <color name="Pink_700">#ffc2185b</color>
+    <color name="Pink_800">#ffad1457</color>
+    <color name="Red_700">#ffc53929</color>
+    <color name="Red_800">#ffb93221</color>
+
+    <!-- color for semi transparent mode. -->
+    <color name="resize_shadow_end_color">#00000000</color>
+    <color name="notification_action_list">#ffeeeeee</color>
+    <color name="chooser_service_row_background_color">#fff5f5f5</color>
+    <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="notification_action_list_dark">#ffe0e0e0</color>
+    <color name="resize_shadow_start_color">#2a000000</color>
+    <color name="system_bar_background_semi_transparent">#66000000</color> <!-- 40% black -->
+    <color name="lockscreen_owner_info">#ff9a9a9a</color>
+    <color name="kg_multi_user_text_inactive">#ff808080</color>
+    <color name="keyguard_avatar_frame_shadow_color">#80000000</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="facelock_spotlight_mask">#CC000000</color>
+    <color name="input_method_navigation_guard">#ff000000</color>
+
+    <color name="floating_popup_divider_light">#E9E9E9</color>
+    <color name="notification_default_color">#757575</color> <!-- Gray 600 -->
+    <color name="micro_text_light">#434343</color>
+    <color name="floating_popup_divider_dark">#2F2F2F</color>
+
+
+    <color name="yellow_50">#FFFDE7</color>
+    <color name="yellow_100">#FFF9C4</color>
+    <color name="yellow_200">#FFF59D</color>
+    <color name="yellow_300">#FFF176</color>
+    <color name="yellow_400">#FFEE58</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="yellow_600">#FDD835</color>
+    <color name="yellow_700">#FBC02D</color>
+    <color name="yellow_800">#F9A825</color>
+    <color name="yellow_900">#F57F17</color>
+
+    <color name="pink_50">#FCE4EC</color>
+    <color name="pink_100">#F8BBD0</color>
+    <color name="pink_200">#F48FB1</color>
+    <color name="pink_300">#F06292</color>
+    <color name="pink_400">#EC407A</color>
+    <color name="pink_500">#E91E63</color>
+    <color name="pink_600">#D81B60</color>
+    <color name="pink_700">#C2185B</color>
+    <color name="pink_800">#AD1457</color>
+    <color name="pink_900">#880E4F</color>
+
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_600">#E53935</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="red_800">#C62828</color>
+    <color name="red_900">#B71C1C</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_100">#C5CAE9</color>
+    <color name="indigo_200">#9FA8DA</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_600">#3949AB</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1A237E</color>
+
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="orange_500">#FF9800</color>
+
+</resources>

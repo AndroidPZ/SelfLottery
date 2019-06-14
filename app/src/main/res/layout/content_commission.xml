@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="zhcw.lottery.znzd.com.selflottery.ui.my.activity.CommissionActivity"
+    tools:showIn="@layout/activity_commission">
+
+
+    <!-- 余额和-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410px"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:text="@string/Commission_balance_title"
+                android:textColor="@color/tooltip_background_dark"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/common_dimen_25dp"
+                android:layout_marginTop="@dimen/common_dimen_10dp"
+                android:text="@string/Commission_Interest_rate_title"
+                android:textColor="@color/tooltip_background_dark"
+                android:textSize="@dimen/text_size_15sp"
+                android:id="@+id/textView" />
+
+            <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.CountNumberView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/wallet_balance"
+                android:textColor="@color/input_method_navigation_guard"
+                android:textSize="@dimen/text_size_23sp"
+                android:typeface="normal" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+                <Button
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tb_ti_xian"
+                    android:layout_width="@dimen/common_dimen_80dp"
+                    android:layout_height="@dimen/common_dimen_35dp"
+                    android:layout_alignBaseline="@+id/tv_balance"
+                    android:layout_alignBottom="@+id/tv_balance"
+                    android:layout_marginStart="54dp"
+                    android:background="@drawable/bt_bg_b"
+                    android:text="提现"
+                    android:textColor="@color/blue_900"
+                    android:typeface="normal" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/investhui">
+
+        <TextView
+            android:id="@+id/amount"
+            android:textSize="@dimen/text_size_13sp"
+            android:layout_margin="@dimen/common_dimen_12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_600"
+            android:text="总销售金额: 0.00元"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/amount"
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

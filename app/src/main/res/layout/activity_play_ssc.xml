@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lottery.activity.PlaySDActivity">
+
+    <include
+        android:id="@+id/toolbar_new"
+        layout="@layout/include_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/prompt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_new"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/common_dimen_8dp"
+        android:layout_marginBottom="@dimen/common_dimen_5dp"
+        android:text="@string/app_name"
+        android:textColor="@color/black_slight_r" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@id/toolbar_new"
+        style="@style/random_ssq" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ii_bottom_game"
+        android:layout_below="@id/prompt_tv"
+        android:layout_marginTop="@dimen/common_dimen_3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--包含万 千 百 十 个-->
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_container_pt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- """"""""""""万位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/wan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/button">
+
+                    <TextView
+                        android:id="@+id/wan_tv"
+                        style="@style/title_xml_sd"
+                        android:text="万位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_ssc_red_number_wan"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/wan_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+
+                <!-- """"""""""""千位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/qian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/wan">
+
+                    <TextView
+                        android:id="@+id/qian_tv"
+                        style="@style/title_xml_sd"
+                        android:text="千位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_ssc_red_number_qian"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/qian_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+
+                <!-- """"""""""""百位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/bai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/qian">
+
+                    <TextView
+                        android:id="@+id/bai_tv"
+                        style="@style/title_xml_sd"
+                        android:text="百位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_ssc_red_number_bai"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/bai_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+
+                <!-- """"""""""""十位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/shi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bai">
+
+                    <TextView
+                        android:id="@+id/shi_tv"
+                        style="@style/title_xml_sd"
+                        android:text="十位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_ssc_red_number_shi"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/shi_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+
+                <!-- """"""""""""个位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shi"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/ge_tv"
+                        style="@style/title_xml_sd"
+                        android:text="个位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_ssc_red_number_ge"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/ge_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_container_dxjo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <!-- """"""""""""十位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/dxjo_shi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bai">
+
+                    <TextView
+                        android:id="@+id/dxjo_shi_tv"
+                        style="@style/title_xml_sd"
+                        android:text="十位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_number_dxjoshi"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/dxjo_shi_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+
+                <!-- """"""""""""个位"""""""""""""""" -->
+                <RelativeLayout
+                    android:id="@+id/dxjo_ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dxjo_shi"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/dxjo_ge_tv"
+                        style="@style/title_xml_sd"
+                        android:text="个位" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.MyGridView
+                        android:id="@+id/ii_number_dxjoge"
+                        style="@style/mygridview_ssq"
+                        android:layout_height="95dip"
+                        android:layout_toRightOf="@+id/dxjo_ge_tv"
+                        android:columnWidth="45dp" />
+                </RelativeLayout>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/bottom_game" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

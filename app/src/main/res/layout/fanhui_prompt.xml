@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="提醒"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_dimen_70dp"
+        android:text="@string/prompt_msg" />
+
+    <Button
+        android:background="@color/white"
+        android:id="@+id/fanhui_determine"
+        android:layout_width="190px"
+        android:layout_height="90px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50px"
+        android:layout_marginLeft="80px"
+        android:gravity="center"
+        android:text="确定" />
+
+    <Button
+        android:background="@color/white"
+        android:id="@+id/fanhui_cancel"
+        android:layout_width="190px"
+        android:layout_height="90px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50px"
+        android:layout_marginRight="80px"
+        android:gravity="center"
+        android:text="取消" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

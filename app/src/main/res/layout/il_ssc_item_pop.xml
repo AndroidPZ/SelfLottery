@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/id_item_bg"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wu_zhx_textView"
+            style="@style/pop_text"
+            android:text="五星直选" />
+
+        <Button
+            android:id="@+id/san_zhx_textView"
+            style="@style/pop_text"
+            android:text="三星直选" />
+
+        <Button
+            android:id="@+id/er_zhx_textView"
+            style="@style/pop_text"
+            android:text="二星直选" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/yi_zhx_textView"
+            style="@style/pop_text"
+            android:text="一星直选" />
+        <!--
+                <Button
+                    style="@style/pop_text"
+                    android:id="@+id/er_zux_textView"
+                    android:text="二星组选"
+                    />-->
+
+        <Button
+            android:id="@+id/wu_fx_textView"
+            style="@style/pop_text"
+            android:text="五星复试"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/si_fx_textView"
+            style="@style/pop_text"
+            android:text="四星复试"
+            android:visibility="invisible" />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/san_fx_textView"
+            style="@style/pop_text"
+            android:text="三星复选" />
+
+        <Button
+            android:id="@+id/er_fx_textView"
+            style="@style/pop_text"
+            android:text="二星复选" />
+
+        <Button
+            android:id="@+id/yi_fx_textView"
+            style="@style/pop_text"
+            android:text="一星复选" />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</LinearLayout>

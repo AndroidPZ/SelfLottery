@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="zhcw.lottery.znzd.com.selflottery.ui.my.activity.OwnerApplyActivity"
+    tools:showIn="@layout/activity_owner_apply">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--展示输入框 , 进行提交-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/owner_apply_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="姓名:" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.ClearEditText
+                        android:id="@+id/cet_name"
+                        style="@style/common_edit" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="站点号:" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.ClearEditText
+                        android:id="@+id/cet_station_num"
+                        style="@style/common_edit"
+                        android:inputType="phone" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="身份证号:" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.ClearEditText
+                        android:id="@+id/cet_id_number"
+                        style="@style/common_edit"
+                        android:inputType="phone" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="联系电话:" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.ClearEditText
+                        android:id="@+id/cet_station_phone"
+                        style="@style/common_edit"
+                        android:inputType="phone"
+                        android:maxLength="11" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="所在区域:" />
+
+                    <TextView
+                        android:id="@+id/cet_station_city"
+                        style="@style/common_edit" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_80dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="详细地址:" />
+
+                    <zhcw.lottery.znzd.com.selflottery.widgets.ClearEditText
+                        android:id="@+id/cet_station_address"
+                        style="@style/common_edit" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_60dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="审核状态:" />
+
+                    <TextView
+                        android:id="@+id/tv_type_id"
+                        style="@style/common_view_text"
+                        android:textColor="@color/red_700" />
+
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <Button
+                    android:id="@+id/tb_true"
+                    style="@style/comm_yz_button"
+                    android:text="@string/submit" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <!--用于提交后的数据展示-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/owner_apply_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_bg"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="姓名:" />
+
+                    <TextView
+                        android:id="@+id/tv_name_view"
+                        style="@style/common_view_text" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="手机号:" />
+
+                    <TextView
+                        android:id="@+id/tv_phone_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="身份证号:" />
+
+                    <TextView
+                        android:id="@+id/tv_idnumber_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="站点编号:" />
+
+                    <TextView
+                        android:id="@+id/tv_stationnum_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="站点地址:" />
+
+                    <TextView
+                        android:id="@+id/tv_stationaddress_view"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_pc_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="机器编号:" />
+
+                    <TextView
+                        android:id="@+id/tv_pcnum_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_mac_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="MAC地址:" />
+
+                    <TextView
+                        android:id="@+id/tv_mac_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="提交时间:" />
+
+                    <TextView
+                        android:id="@+id/tv_time_view"
+                        style="@style/common_view_text" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View style="@style/horizontal_line_style" />
+
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_text"
+                        android:text="审核状态:" />
+
+                    <TextView
+                        android:id="@+id/tv_type_id_view"
+                        style="@style/common_view_text"
+                        android:textColor="@color/red_700" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <Button
+                    android:id="@+id/tb_getcode"
+                    style="@style/comm_yz_button"
+                    android:text="获取绑定码"
+                    android:visibility="gone" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

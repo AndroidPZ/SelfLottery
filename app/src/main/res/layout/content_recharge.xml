@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recharge_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="zhcw.lottery.znzd.com.selflottery.ui.my.activity.RechargeActivity"
+    tools:showIn="@layout/activity_recharge">
+
+    <TextView
+        android:id="@+id/recharge_title_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_dimen_15dp"
+        android:gravity="center"
+        android:text="@string/recharge_title_yuan"
+        android:textColor="@color/recharge_title_txt_color"
+        android:textSize="@dimen/text_size_18sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:layout_below="@id/recharge_title_yuan"
+        android:padding="12dp" />
+
+
+    <TextView
+        android:id="@+id/recharge_title_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recylerview"
+        android:gravity="center"
+        android:text="@string/recharge_title_method"
+        android:textColor="@color/recharge_title_txt_color"
+        android:textSize="@dimen/text_size_18sp" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/m_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recharge_title_method">
+
+        <ImageView
+            android:id="@+id/WeChat"
+            style="@style/tubiao_recharge"
+            android:src="@mipmap/wxpay" />
+
+        <TextView
+            style="@style/recharge_recharge_text"
+            android:layout_toRightOf="@+id/WeChat"
+            android:text="@string/recharge_wechat" />
+
+        <ImageView
+            android:id="@+id/recharge_wechat_cb"
+            style="@style/ImageView_recharge" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/m_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_wechat"
+        android:layout_marginTop="@dimen/common_dimen_3dp">
+
+        <ImageView
+            android:id="@+id/alipay"
+            style="@style/tubiao_recharge"
+            android:src="@mipmap/alipay" />
+
+        <TextView
+            style="@style/recharge_recharge_text"
+            android:layout_toRightOf="@+id/alipay"
+            android:text="@string/recharge_zhifubao" />
+
+        <ImageView
+            android:id="@+id/recharge_alipay_cb"
+            style="@style/ImageView_recharge" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/m_alipay"
+        android:layout_marginTop="@dimen/common_dimen_5dp"
+        android:layout_marginLeft="@dimen/common_dimen_15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_10sp"
+        android:textStyle="italic"
+        android:text="@string/recharge_shuoming"/>
+
+    <TextView
+        android:id="@+id/tvPay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:background="@drawable/tv_bg_pay"
+        android:gravity="center"
+        android:text="立即充值"
+        android:textColor="@color/white" />
+
+    <zhcw.lottery.znzd.com.selflottery.widgets.pswkeyboard.widget.VirtualKeyboardView
+        android:id="@+id/virtualKeyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

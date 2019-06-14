@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="OCRCameraLayout">
+        <attr format="reference" name="contentView"/>
+    </declare-styleable>
+    <dimen name="camera_bottom_margin">16dp</dimen>
+    <dimen name="camera_left_margin">18dp</dimen>
+    <dimen name="camera_right_margin">18dp</dimen>
+    <dimen name="camera_top_margin">16dp</dimen>
+    <string name="app_name">OCR_UI</string>
+    <string name="camera_permission_required">本功能需要相机权限！</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="dialog" parent="AlertDialog.AppCompat.Light">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+        <item name="android:background">#00ffffff</item>
+        <!-- 设置自定义布局的背景透明 -->
+    </style>
+</resources>

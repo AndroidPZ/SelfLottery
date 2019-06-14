@@ -1,0 +1,110 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhcw.lottery.znzd.com.selflottery.ui.bonus.BonusFragment">
+
+    <cn.bingoogolapple.qrcode.zxing.ZXingView
+        android:id="@+id/zxingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_borderColor="@android:color/white"
+        app:qrcv_borderSize="1dp"
+        app:qrcv_cornerColor="@color/colorPrimary"
+        app:qrcv_cornerDisplayType="center"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="3dp"
+        app:qrcv_isBarcode="false"
+        app:qrcv_isShowTipBackground="true"
+        app:qrcv_isTipTextBelowRect="true"
+        app:qrcv_maskColor="#9D000000"
+        app:qrcv_qrCodeTipText="@string/bonus_qrtxt"
+        app:qrcv_rectWidth="230dp"
+        app:qrcv_scanLineColor="@color/colorPrimary"
+        app:qrcv_scanLineSize="1dp"
+        app:qrcv_tipTextMargin="@dimen/common_dimen_25dp"
+        app:qrcv_tipTextSize="15sp"
+        app:qrcv_topOffset="110dp">
+
+    </cn.bingoogolapple.qrcode.zxing.ZXingView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/common_dimen_70dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/flash"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/common_dimen_5dp"
+                android:background="@mipmap/flash_off" />
+
+            <TextView
+                android:id="@+id/zxingview_tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/text_zxing_left"
+                android:textColor="@color/grey_50" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/common_dimen_5dp"
+                android:background="@mipmap/album" />
+
+            <TextView
+                android:id="@+id/zxingview_tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/text_zxing_right"
+                android:textColor="@color/grey_50" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/common_dimen_10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="@dimen/common_dimen_15dp"
+            android:text="@string/tab_manager3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

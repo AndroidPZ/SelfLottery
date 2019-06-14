@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_weight="1">
+
+
+    <TextView
+        android:id="@+id/ii_shopping_item_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="[单式]"
+        android:textColor="@color/gray1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ii_shopping_item_zhushu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/ii_shopping_item_type"
+        android:text="注数"
+        android:textColor="@color/gray1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ii_shopping_item_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/ii_shopping_item_zhushu"
+        android:text="金额"
+        android:textColor="@color/gray1"
+        android:textSize="14sp" />
+
+    <ImageView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="@dimen/common_dimen_20dp"
+        android:layout_height="@dimen/common_dimen_20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/common_dimen_40dp"
+        app:srcCompat="@drawable/ic_arrow"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/ii_shopping_item_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ii_shopping_item_type"
+        android:layout_marginTop="@dimen/common_dimen_4dp"
+        android:layout_marginBottom="@dimen/common_dimen_2dp"
+        android:text="状态"
+        android:textColor="@color/red_900"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

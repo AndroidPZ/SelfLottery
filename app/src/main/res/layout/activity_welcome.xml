@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:id="@+id/ig_WelCome"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/tvTiaoGuo"
+        android:text="跳过广告"
+        android:textSize="@dimen/text_size_13sp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:paddingTop="@dimen/common_dimen_3dp"
+        android:paddingBottom="@dimen/common_dimen_3dp"
+        android:paddingRight="@dimen/common_dimen_5dp"
+        android:paddingLeft="@dimen/common_dimen_5dp"
+        android:background="@drawable/welcome_corners"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/common_dimen_25dp"
+        android:layout_marginRight="@dimen/common_dimen_5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <zhcw.lottery.znzd.com.selflottery.widgets.AnimationTask.CountDownView
+        android:id="@+id/countDownView"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/common_dimen_16dp"
+        android:layout_marginRight="@dimen/common_dimen_5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cd_animator_time="1"
+        app:cd_animator_time_unit="s"
+        app:cd_arc_color="@color/red_600"
+        app:cd_arc_width="2dp"
+        app:cd_bg_color="@color/grey_400"
+        app:cd_circle_radius="15dp"
+        app:cd_location="right"
+        app:cd_retreat_type="forward"
+        app:cd_text_color="#FFFFFF"
+        app:cd_text_size="14sp" />
+
+</RelativeLayout>

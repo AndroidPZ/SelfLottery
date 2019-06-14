@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/common_dimen_25dp"
+        android:paddingBottom="@dimen/common_dimen_10dp">
+        <ImageView
+            android:id="@+id/iv_title_item_back"
+            android:layout_width="@dimen/common_dimen_25dp"
+            android:layout_height="@dimen/common_dimen_25dp"
+            android:src="@drawable/ic_back_white"
+            android:layout_marginLeft="@dimen/common_dimen_10dp"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:id="@+id/tv_title_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兑换"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>
+
