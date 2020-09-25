@@ -98,6 +98,16 @@ public class Logger {
         if (showLog) {
             String tag = convertStringTag(objTag);
             String msg = convertStringMsg(objMsg);
+
+            //信息太长,分段打印
+            //因为String的length是字符数量不是字节数量所以为了防止中文字符过多，
+            //  把4*1024的MAX字节打印长度改为2001字符数
+            int maxStrLength = 2048 - tag.length();
+            //大于4000时
+            while (msg.length() > maxStrLength) {
+                Log.i(tag, msg.substring(0, maxStrLength));
+                msg = msg.substring(maxStrLength);
+            }
             Log.i(tag, msg);
         }
     }
@@ -106,6 +116,16 @@ public class Logger {
         if (showLog) {
             String tag = convertStringTag(objTag);
             String msg = convertStringMsg(objMsg);
+
+            //信息太长,分段打印
+            //因为String的length是字符数量不是字节数量所以为了防止中文字符过多，
+            //  把4*1024的MAX字节打印长度改为2001字符数
+            int maxStrLength = 2048 - tag.length();
+            //大于4000时
+            while (msg.length() > maxStrLength) {
+                Log.i(tag, msg.substring(0, maxStrLength));
+                msg = msg.substring(maxStrLength);
+            }
             Log.e(tag, msg, e);
         }
     }
@@ -113,6 +133,16 @@ public class Logger {
         if (showLog) {
             String tag = convertStringTag(objTag);
             String msg = convertStringMsg(objMsg);
+
+            //信息太长,分段打印
+            //因为String的length是字符数量不是字节数量所以为了防止中文字符过多，
+            //  把4*1024的MAX字节打印长度改为2001字符数
+            int maxStrLength = 2048 - tag.length();
+            //大于4000时
+            while (msg.length() > maxStrLength) {
+                Log.i(tag, msg.substring(0, maxStrLength));
+                msg = msg.substring(maxStrLength);
+            }
             Log.d(tag, msg);
         }
     }
