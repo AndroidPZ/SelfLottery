@@ -3,7 +3,7 @@ apply from: 'and_res_guard.gradle'
 
 //定义时间
 def releaseTime() {
-    return new Date().format("yyyyMMdd_HHmm", TimeZone.getTimeZone("UTC"))
+    return new Date().format("yyyyMMdd_HHmm", TimeZone.getTimeZone("GMT+08:00"))
 }
 
 android {
